@@ -1,0 +1,21 @@
+{
+  "name": "catbox-http",
+  "version": "0.0.1",
+  "description": "Coherence REST adaptor for catbox",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "author": "Deep Mistry",
+  "license": "Apache-2.0",
+  "publishConfig": {
+    "registry": "https://github.com/dtmistry/catbox-http.git"
+  },
+  "dependencies": {
+    "lodash": "^3.10.0",
+    "request": "^2.60.0"
+  },
+  "devDependencies": {
+    "catbox": "4.x.x"
+  }
+}
